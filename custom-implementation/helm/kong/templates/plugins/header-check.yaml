@@ -7,5 +7,5 @@ metadata:
   labels:
     global: "true"
 config:
-  HEADER_NAME: "hello"
+  HEADER_NAME: "s-permissions"
 plugin: header_check
