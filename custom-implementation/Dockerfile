@@ -14,7 +14,7 @@ COPY --chown=kong --chmod=555 ./py-plugins /usr/local/kong/python-plugins
 COPY --chown=kong --chmod=555 ./pluginserver.py /usr/local/bin/kong-python-pluginserver
 
 # Install Python Plugin dependency
-RUN PYTHONWARNINGS=ignore pip3 install kong-pdk==0.31
+RUN PYTHONWARNINGS=ignore pip3 install kong-pdk==0.31 token-bucket==0.3.0
 
 # Initialize Kong
 USER kong

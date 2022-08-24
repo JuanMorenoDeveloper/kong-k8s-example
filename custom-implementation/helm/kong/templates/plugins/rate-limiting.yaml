@@ -7,6 +7,6 @@ metadata:
   labels:
     global: "true"
 config: 
-  minute: 5
+  minute: 100
   policy: local
 plugin: rate-limiting
